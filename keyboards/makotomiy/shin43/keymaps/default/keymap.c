@@ -247,7 +247,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                    _______, _______, KC_SPC,  _______, KC_TAB,  KC_0,    KC_COMM
     ),
     [_FUNCTION] = LAYOUT_ortho_4x13_mod(
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, S(KC_TAB),        RGB_TOG, KC_F1,   KC_F2,   KC_F3,   KC_F4,   _______,
+        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, S(KC_TAB),        UG_TOGG, KC_F1,   KC_F2,   KC_F3,   KC_F4,   _______,
         _______, XXXXXXX, KC_LALT, KC_LGUI, KC_LSFT, C(BR_SLSH),       XXXXXXX, KC_F5,   KC_F6,   KC_F7,   KC_F8,   _______,
         _______, C(KC_Z), C(KC_X), C(KC_C), XXXXXXX, C(KC_V),          XXXXXXX, KC_F9,   KC_F10,  KC_F11,  KC_F12,  QK_BOOT,
                                    _______, _______, KC_CAPS, _______, _______, _______, _______
